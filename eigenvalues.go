@@ -309,7 +309,7 @@ func (ed eigenvalueDecomposition) tql2() {
 
 				// Check for convergence.
 
-				if math.Abs(ed.e[l]) > eps*tst1 {
+				if math.Abs(ed.e[l]) <= eps*tst1 {
 					break
 				}
 			}
