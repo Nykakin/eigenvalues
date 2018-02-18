@@ -1,0 +1,1 @@
+﻿This repository contains eigenvalue decomposition algorithm rewritten from Java [JAML](https://math.nist.gov/javanumerics/jama/) package.
